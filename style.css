@@ -1,17 +1,16 @@
 body {
   font-family: 'Roboto', sans-serif;
-  margin: 200px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: black;
+  margin: 0;
 }
 
 .header {
     display: flex;
     flex-direction: column;
-    background-color: #1F2937
+    background-color: #1F2937;
 }
 
 .header-top {
@@ -51,7 +50,7 @@ a {
     justify-content: space-between;
     padding-left: 200px;
     padding-right: 200px;
-    margin-bottom: 150px;
+    padding-bottom: 150px;
     align-items: flex-start;
 }
 
@@ -78,4 +77,55 @@ button {
 
 .left-side {
     width: 500px;
+}
+
+.content-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 50px;
+    padding-bottom: 100px;
+}
+
+.my-image-ct {
+    width: 200px;
+}
+
+.info {
+  max-width: 200px;
+}
+
+.image-text {
+    color: #1F2937;
+    font-size: 18px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    width: 800px;
+}
+
+.sign {
+    font-size: 24px;
+    padding-left: 550px;
 }
